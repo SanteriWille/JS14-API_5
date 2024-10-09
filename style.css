@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background: url(./img/itachi.jpg) no-repeat center top;
+  background-size: 100vw 190px;
+}
+
+.inbut {
+  text-align: center;
+  margin-top: 12.5rem;
+}
+
+#input {
+  font-size: 15px;
+  width: 260px;
+  padding: 6px 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+}
+
+button {
+  font-size: 15px;
+  padding: 5.3px 35px;
+  background: rgb(188, 3, 3);
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 2rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+  width: 400px
+}
+
+img {
+  width: 220px;
+}
+
+.info p {
+  margin-top: 5px;
+}
